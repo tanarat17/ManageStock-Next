@@ -1,12 +1,13 @@
 import * as React from 'react';
-import '../css/styles.css';
-import { Modal, Typography, Box, TextField, Button } from '@mui/material';
+import '../../css/styles.css';
+import { Modal, Typography, TextField, Button } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
 import CheckIcon from '@mui/icons-material/Check';
 import Image from 'next/image';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
+import Box from '@mui/material/Box'; // นำเข้า Box
 
 interface ScanModalProductProps {
     open: boolean;
@@ -142,7 +143,7 @@ const ScanModalProduct: React.FC<ScanModalProductProps> = ({ open, onClose, prod
                             },
                         }} 
                     >
-                        <CheckIcon sx={{ mr: 1 }} />
+                        <Box sx={{ mr: 1 }} />
                         ตรวจนับ
                     </Button>
 
@@ -288,10 +289,6 @@ const ScanModalProduct: React.FC<ScanModalProductProps> = ({ open, onClose, prod
                                     ล้าง
                                 </Button>
                             </Box>
-
-                      
-
-                            
                         </Box>
                     )}
                 </Box>

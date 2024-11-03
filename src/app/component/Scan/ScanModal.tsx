@@ -1,7 +1,7 @@
 import * as React from 'react';
+import '../../css/styles.css';
 import { Modal, Typography, Box } from '@mui/material';
 import BarcodeScanner from "react-qr-barcode-scanner";
-import '../css/styles.css'; // นำเข้า CSS ของคุณ
 import CloseIcon from '@mui/icons-material/Close'; // นำเข้าไอคอน Close
 
 
