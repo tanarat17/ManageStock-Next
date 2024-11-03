@@ -12,8 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        anuphan: ['Anuphan', 'sans-serif'], // เพิ่มฟอนต์ Anuphan
+      },
     },
   },
   plugins: [],
 };
+
 export default config;

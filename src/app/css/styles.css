@@ -1,0 +1,61 @@
+/* pages/component/styles.css */
+
+/* zpx\src\app\css\styles.css */
+
+/* @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap');
+
+body {
+    margin: 0;
+    background: #F2B56B;
+    font-family: 'Anuphan', sans-serif; 
+}
+
+
+.chonburi-regular {
+    font-family: 'Anuphan', sans-serif; /* ใช้ฟอนต์ Anuphan */
+    font-weight: 400;
+    font-style: normal;
+}
+
+  button {
+   
+    font-family: 'Anuphan', sans-serif; /* เพิ่มฟอนต์ Anuphan ให้กับปุ่ม */
+}
+
+
+button span {
+   
+}
+
+.show {
+    left: 0;
+}
+
+/* .credit {
+    position: fixed;
+    left: 40%;
+    bottom: 0;
+    color: #000;
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} */
+
+/* .credit > a {
+    text-decoration: none;
+    color: white;
+} */
+
+
+button, .MuiButton-root {
+    font-family: 'Anuphan', sans-serif; /* กำหนดฟอนต์ให้กับปุ่ม MUI */
+}
+
+.MuiTextField-root {
+    font-family: 'Anuphan', sans-serif; /* กำหนดฟอนต์ให้กับ TextField */
+}
+
+
+
+

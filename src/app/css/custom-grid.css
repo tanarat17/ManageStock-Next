@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&family=Chonburi&display=swap');
+
+
+.custom-grid {
+    /* ตัวอย่างสไตล์เพิ่มเติม */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 16px;
+    font-family: "Anuphan";
+    font-weight: 300; 
+    margin: 0; 
+    font-size: 20px;
+}
+
+
+ .Anuphan-regular {
+    font-family: "Chonburi", serif;
+    font-weight: 200;
+    font-style: normal;
+  } 
